@@ -24,7 +24,7 @@ fs.readFile('./public/index.html', (err,data) => {
 		  res.end(data);
 	});
         server.listen(port, 'localhost', () => {
-	console.log('Server listening on port ${port}'); 
+	console.log('Server listening on port '+ port); 
         });
 });
 // If there is an error, put it on the console error and return. 
